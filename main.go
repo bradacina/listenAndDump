@@ -9,31 +9,16 @@ import (
 	"strings"
 )
 
-type bodyModifier struct {
-	rw http.ResponseWriter
-}
-
-func (bm *bodyModifier) Header() http.Header {
-	return bm.rw.Header()
-}
-
-func (bm *bodyModifier) WriteHeader(status int) {
-	bm.rw.WriteHeader(status)
-}
-
-func (bm *bodyModifier) Write(content []byte) (int, error) {
-	log.Printf("Response Body: %v\n", string(content))
-	if strings.Contains(string(content), "00000000-0000-0000-0000-000000000000") {
-		log.Printf("FOUND THE TOKEN\n")
-		content = []byte(strings.Replace(string(content), "00000000-0000-0000-0000-000000000000", "656e2145-f118-445b-999d-9b5e8faaaaff", -1))
-	}
-	return bm.rw.Write(content)
-}
+const (
+	// ProxyURL is the url for which we're proxying requests
+	ProxyURL = "http://knockknock.readify.net/RedPill.svc"
+)
 
 func singleJoiningSlash(a, b string) string {
 	if len(b) == 0 || b == "/" {
 		return a
 	}
+
 	aslash := strings.HasSuffix(a, "/")
 	bslash := strings.HasPrefix(b, "/")
 	switch {
@@ -48,12 +33,16 @@ func singleJoiningSlash(a, b string) string {
 func NewProxy(target *url.URL) *httputil.ReverseProxy {
 	targetQuery := target.RawQuery
 	director := func(req *http.Request) {
+
 		dump, _ := httputil.DumpRequest(req, true)
 		log.Printf("%v", string(dump))
+
+		// rewrite the incoming request
 		req.Host = target.Host
 		req.URL.Scheme = target.Scheme
 		req.URL.Host = target.Host
 		req.URL.Path = singleJoiningSlash(target.Path, req.URL.Path)
+
 		if targetQuery == "" || req.URL.RawQuery == "" {
 			req.URL.RawQuery = targetQuery + req.URL.RawQuery
 		} else {
@@ -67,19 +56,28 @@ func NewProxy(target *url.URL) *httputil.ReverseProxy {
 	return &httputil.ReverseProxy{Director: director}
 }
 
-var p *httputil.ReverseProxy
+var proxy *httputil.ReverseProxy
+
+func editResponse(w http.ResponseWriter, r *http.Request) {
+	rbm := &ResponseBodyModifier{rw: w}
+	proxy.ServeHTTP(rbm, r)
+}
 
 func main() {
 	f, err := os.Create("listenAndDump.log")
-	defer f.Close()
-	log.SetOutput(f)
-
-	url, err := url.Parse("http://knockknock.readify.net/RedPill.svc")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	p = NewProxy(url)
+	defer f.Close()
+	log.SetOutput(f)
+
+	url, err := url.Parse(ProxyURL)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	proxy = NewProxy(url)
 
 	http.HandleFunc("/", editResponse)
 
@@ -89,9 +87,4 @@ func main() {
 			log.Fatal(err)
 		}
 	}
-}
-
-func editResponse(w http.ResponseWriter, r *http.Request) {
-	bm := &bodyModifier{rw: w}
-	p.ServeHTTP(bm, r)
 }
