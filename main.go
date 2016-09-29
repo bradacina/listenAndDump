@@ -1,14 +1,34 @@
 package main
 
 import (
-	"os"
-	"bufio"
 	"log"
 	"net/http"
 	"net/http/httputil"
 	"net/url"
+	"os"
 	"strings"
 )
+
+type bodyModifier struct {
+	rw http.ResponseWriter
+}
+
+func (bm *bodyModifier) Header() http.Header {
+	return bm.rw.Header()
+}
+
+func (bm *bodyModifier) WriteHeader(status int) {
+	bm.rw.WriteHeader(status)
+}
+
+func (bm *bodyModifier) Write(content []byte) (int, error) {
+	log.Printf("Response Body: %v\n", string(content))
+	if strings.Contains(string(content), "00000000-0000-0000-0000-000000000000") {
+		log.Printf("FOUND THE TOKEN\n")
+		content = []byte(strings.Replace(string(content), "00000000-0000-0000-0000-000000000000", "656e2145-f118-445b-999d-9b5e8faaaaff", -1))
+	}
+	return bm.rw.Write(content)
+}
 
 func singleJoiningSlash(a, b string) string {
 	if len(b) == 0 || b == "/" {
@@ -22,15 +42,14 @@ func singleJoiningSlash(a, b string) string {
 	case !aslash && !bslash:
 		return a + "/" + b
 	}
-    return a + b
+	return a + b
 }
-
 
 func NewProxy(target *url.URL) *httputil.ReverseProxy {
 	targetQuery := target.RawQuery
 	director := func(req *http.Request) {
 		dump, _ := httputil.DumpRequest(req, true)
-		log.Printf("%v",string(dump))
+		log.Printf("%v", string(dump))
 		req.Host = target.Host
 		req.URL.Scheme = target.Scheme
 		req.URL.Host = target.Host
@@ -42,11 +61,13 @@ func NewProxy(target *url.URL) *httputil.ReverseProxy {
 		}
 
 		dump, _ = httputil.DumpRequestOut(req, true)
-		log.Printf("%v",string(dump))
+		log.Printf("%v", string(dump))
 	}
 
 	return &httputil.ReverseProxy{Director: director}
 }
+
+var p *httputil.ReverseProxy
 
 func main() {
 	f, err := os.Create("listenAndDump.log")
@@ -58,11 +79,9 @@ func main() {
 		log.Fatal(err)
 	}
 
+	p = NewProxy(url)
 
-	proxy := NewProxy(url)
-
-	http.Handle("/", proxy)
-	//http.HandleFunc("/", dump)
+	http.HandleFunc("/", editResponse)
 
 	for {
 		err := http.ListenAndServe(":80", nil)
@@ -72,24 +91,7 @@ func main() {
 	}
 }
 
-func dump(w http.ResponseWriter, r *http.Request) {
-
-	reader := bufio.NewReader(r.Body)
-	log.Println("Method", r.Method)
-	log.Println("Header:")
-	for k, v := range r.Header {
-		log.Printf("%s : %v\n", k, v)
-	}
-	log.Println("RequestUri", r.RequestURI)
-	log.Println("Body:")
-	for {
-		s, err := reader.ReadString('\n')
-		s = strings.Trim(s, "\r\n")
-		if err != nil {
-			log.Println(s)
-			break
-		}
-
-		log.Println(s)
-	}
+func editResponse(w http.ResponseWriter, r *http.Request) {
+	bm := &bodyModifier{rw: w}
+	p.ServeHTTP(bm, r)
 }
