@@ -4,12 +4,21 @@ import (
 	"bufio"
 	"log"
 	"net/http"
+	"net/http/httputil"
+	"net/url"
 	"strings"
 )
 
 func main() {
+	url, err := url.Parse("https://knockknock.readify.net/RedPill.svc")
+	if err != nil {
+		log.Fatal(err)
+	}
 
-	http.HandleFunc("/", dump)
+	proxy := httputil.NewSingleHostReverseProxy(url)
+
+	http.Handle("/", proxy)
+	//http.HandleFunc("/", dump)
 
 	for {
 		err := http.ListenAndServe(":8080", nil)
