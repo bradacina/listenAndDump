@@ -1,0 +1,1284 @@
+2016/09/29 06:16:26 GET / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,fr;q=0.6
+Cache-Control: max-age=0
+Connection: keep-alive
+Dnt: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+
+2016/09/29 06:16:26 GET /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,fr;q=0.6
+Cache-Control: max-age=0
+Connection: keep-alive
+Dnt: 1
+Upgrade-Insecure-Requests: 1
+
+2016/09/29 06:16:47 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatIsYourToken"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatIsYourToken xmlns="http://KnockKnock.readify.net"/></s:Body></s:Envelope>
+2016/09/29 06:16:47 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 150
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatIsYourToken"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatIsYourToken xmlns="http://KnockKnock.readify.net"/></s:Body></s:Envelope>
+2016/09/29 06:16:47 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatIsYourToken"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatIsYourToken xmlns="http://KnockKnock.readify.net"/></s:Body></s:Envelope>
+2016/09/29 06:16:47 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 150
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatIsYourToken"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatIsYourToken xmlns="http://KnockKnock.readify.net"/></s:Body></s:Envelope>
+2016/09/29 06:16:48 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>-2147483648</a><b>-2147483648</b><c>-2147483648</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:48 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 221
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>-2147483648</a><b>-2147483648</b><c>-2147483648</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:48 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>-1</a><b>-1</b><c>-1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:48 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 194
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>-1</a><b>-1</b><c>-1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:49 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>-1</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:49 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 192
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>-1</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:49 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>-1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:49 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 192
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>-1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:50 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>-1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:50 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 192
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>-1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:50 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>0</a><b>0</b><c>0</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:50 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>0</a><b>0</b><c>0</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:51 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>0</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:51 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>0</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:51 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>0</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:51 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>0</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:52 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>0</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:52 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>0</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:52 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:52 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:53 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>2</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:53 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>2</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:53 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:53 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:54 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>2</b><c>3</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:54 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>2</b><c>3</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:54 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>2147483647</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:54 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 200
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>2147483647</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:55 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:55 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>1</a><b>1</b><c>1</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:55 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>2</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:55 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>2</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:56 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2147483647</a><b>2147483647</b><c>2147483647</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:56 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 218
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2147483647</a><b>2147483647</b><c>2147483647</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:56 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>2</b><c>3</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:56 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>2</b><c>3</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:57 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>3</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:57 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>3</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:57 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>3</a><b>2</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:57 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>3</a><b>2</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:58 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>3</b><c>4</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:58 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2</a><b>3</b><c>4</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:58 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>3</a><b>4</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:58 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>3</a><b>4</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:59 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>4</a><b>2</b><c>3</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:59 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>4</a><b>2</b><c>3</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:59 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>4</a><b>3</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:16:59 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 191
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>4</a><b>3</b><c>2</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:17:00 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2147483647</a><b>2147483647</b><c>2147483647</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:17:00 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 218
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatShapeIsThis"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatShapeIsThis xmlns="http://KnockKnock.readify.net"><a>2147483647</a><b>2147483647</b><c>2147483647</c></WhatShapeIsThis></s:Body></s:Envelope>
+2016/09/29 06:17:00 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-92</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:00 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 177
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-92</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:01 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-47</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:01 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 177
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-47</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:02 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-46</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:02 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 177
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-46</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:02 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-7</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:02 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-7</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:03 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-6</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:03 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-6</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:04 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-5</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:04 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-5</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:04 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-4</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:04 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-4</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:05 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-3</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:05 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-3</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:05 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-2</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:05 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-2</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:06 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-1</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:06 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-1</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:06 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>0</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:06 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>0</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:07 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>1</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:07 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>1</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:07 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>2</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:07 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>2</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:08 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>3</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:08 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>3</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:08 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>4</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:08 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>4</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:09 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>5</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:09 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>5</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:09 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>6</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:09 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>6</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:10 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>7</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:10 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>7</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:10 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>46</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:10 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>46</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:11 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>47</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:11 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>47</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:12 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>92</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:12 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>92</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:12 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-93</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:12 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 177
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-93</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:13 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>93</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:13 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 176
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>93</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:13 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-9223372036854775808</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:13 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 194
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-9223372036854775808</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:14 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-2147483648</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:14 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 185
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>-2147483648</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:14 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>2147483647</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:14 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 184
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>2147483647</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:15 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>9223372036854775807</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:15 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 193
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/FibonacciNumber"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><FibonacciNumber xmlns="http://KnockKnock.readify.net"><n>9223372036854775807</n></FibonacciNumber></s:Body></s:Envelope>
+2016/09/29 06:17:15 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatIsYourToken"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatIsYourToken xmlns="http://KnockKnock.readify.net"/></s:Body></s:Envelope>
+2016/09/29 06:17:15 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 150
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/WhatIsYourToken"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><WhatIsYourToken xmlns="http://KnockKnock.readify.net"/></s:Body></s:Envelope>
+2016/09/29 06:17:16 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s a:nil="true" xmlns:a="http://www.w3.org/2001/XMLSchema-instance"/></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:16 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 230
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s a:nil="true" xmlns:a="http://www.w3.org/2001/XMLSchema-instance"/></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:16 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s/></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:16 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 165
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s/></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:17 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>cat</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:17 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 171
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>cat</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:17 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>cat and dog</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:17 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 179
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>cat and dog</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:18 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>two  spaces</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:18 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 179
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>two  spaces</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:18 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s> leading space</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:18 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 182
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s> leading space</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:19 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>trailing space </s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:19 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 183
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>trailing space </s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:19 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>Capital</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:19 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>Capital</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:20 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>Bang!</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:20 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 173
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>Bang!</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:20 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>¿Qué?</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:20 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 175
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>¿Qué?</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:21 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>detartrated kayak detartrated</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:21 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 197
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>detartrated kayak detartrated</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:21 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>This is a snark: ⸮</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:21 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 188
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>This is a snark: ⸮</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:22 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>  S  P  A  C  E  Y  </s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:22 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 188
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>  S  P  A  C  E  Y  </s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:22 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>!B!A!N!G!S!</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:22 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 179
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>!B!A!N!G!S!</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:23 POST / HTTP/1.1
+Host: chatdrop.cloudapp.net
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>P!u@n#c$t%u^a&amp;t*i(o)n</s></ReverseWords></s:Body></s:Envelope>
+2016/09/29 06:17:23 POST /RedPill.svc HTTP/1.1
+Host: knockknock.readify.net
+User-Agent: Go-http-client/1.1
+Content-Length: 193
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+Expect: 100-continue
+Soapaction: "http://KnockKnock.readify.net/IRedPill/ReverseWords"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ReverseWords xmlns="http://KnockKnock.readify.net"><s>P!u@n#c$t%u^a&amp;t*i(o)n</s></ReverseWords></s:Body></s:Envelope>
