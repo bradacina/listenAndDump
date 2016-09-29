@@ -49,7 +49,10 @@ func NewProxy(target *url.URL) *httputil.ReverseProxy {
 			req.URL.RawQuery = targetQuery + "&" + req.URL.RawQuery
 		}
 
-		req.Header.Set("Accept-Encoding","")
+		// don't accept gzip encoding since we want to perform
+		// string comparisons on uncompressed response Body text
+		req.Header.Set("Accept-Encoding", "")
+
 		dump, _ = httputil.DumpRequestOut(req, true)
 		log.Printf("%v", string(dump))
 	}
@@ -65,6 +68,7 @@ func editResponse(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	// set up log file
 	f, err := os.Create("listenAndDump.log")
 	if err != nil {
 		log.Fatal(err)
@@ -73,6 +77,7 @@ func main() {
 	defer f.Close()
 	log.SetOutput(f)
 
+	// setup the proxy
 	url, err := url.Parse(ProxyURL)
 	if err != nil {
 		log.Fatal(err)
@@ -80,6 +85,7 @@ func main() {
 
 	proxy = NewProxy(url)
 
+	// setup response inspector/editor
 	http.HandleFunc("/", editResponse)
 
 	for {
