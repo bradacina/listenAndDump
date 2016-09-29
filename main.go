@@ -60,6 +60,7 @@ func NewProxy(target *url.URL) *httputil.ReverseProxy {
 			req.URL.RawQuery = targetQuery + "&" + req.URL.RawQuery
 		}
 
+		req.Header.Set("Accept-Encoding","")
 		dump, _ = httputil.DumpRequestOut(req, true)
 		log.Printf("%v", string(dump))
 	}
